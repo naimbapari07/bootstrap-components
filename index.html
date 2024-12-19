@@ -1,0 +1,242 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="bootstrap pt">
+    <meta name="description" content="learning bootstrap pactice or exampul ">
+    <meta name="keywords" content="html, css, bootstrap, from, table, logo">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">     
+    <meta name="revisit-after" content="2 days">
+    <meta name="author" content="Naim07">
+
+ <!-- link connect -->
+ <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+ <link rel="stylesheet" type="text/css" href="css/media.css">
+
+</head>
+<body>
+<!-- Header start --> 
+<header>
+  <div class="container mb-2">
+       
+    <nav class="navbar navbar-expand-md bg-body-secondary">
+     <div class="container-fluid">
+       <a class="navbar-brand" href="#">Navbar</a>
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarS" aria-controls="navbarS" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarS">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 menu">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#" >Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  " aria-current="page" href="#">Logo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  " aria-current="page" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  " aria-current="page" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+         
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+  </div>
+</header>
+<!-- Header end -->
+
+<!-- carsoul start -->
+ <section class="mb-5">
+   <div class="container">  
+   <div id="carousel" class="carousel slide mb-5" data-bs-ride="carousel" >
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="5000">
+      <img src="images/p4.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item" data-bs-interval="5000">
+      <img src="images/p5.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item" data-bs-interval="5000">
+      <img src="images/p3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item" data-bs-interval="5000">
+      <img src="images/p2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item" data-bs-interval="5000">
+      <img src="images/p1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+ 
+  
+ </div>
+</section>
+<!-- carsoul end -->  
+
+<!-- modal start -->
+<div class="container mb-5">
+   <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Launch static backdrop modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h1>Lorem ipsum, dolor sit.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda est unde minus temporibus doloribus numquam neque eaque distinctio perspiciatis sint!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- tooltipe start -->
+<div class="container mb-5 ml-2">
+
+  <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top">
+  Tooltip on top
+</button>
+ <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top 2">
+  Tooltip on top 2
+</button>
+ <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top 3">
+  Tooltip on top 3
+</button>
+ <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top 4">
+  Tooltip on top 4
+</button>
+<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top 5">
+  Tooltip on top 5
+</button>
+ 
+
+</div>
+
+
+
+
+
+ <!-- footer start -->
+<section>
+  <div class="container">
+     <footer class="footer">
+
+   <div class="social">
+
+    <a href="https://www.facebook.com/naimbapari07" target="blank"><i class="bi bi-facebook"></i></a>
+
+    <a href="https://www.youtube.com/@NaimBapari9" target="blank"><i class="bi bi-youtube"></i></a>
+
+    <a href="https://www.linkedin.com/in/naimbapari07/" target="blank"><i class="bi bi-linkedin"></i></a>
+
+    <a href="https://www.instagram.com/naimbapari807/" target="blank"><i class="bi bi-instagram"></i></i></a>
+
+     <a href="https://x.com/naimbapri07" target="blank"><i class="bi bi-twitter-x"></i></a>
+       
+  </div>
+
+  <ul class="list">
+    <li>
+      <a href="#"> FAQ</a>
+    </li>
+    <li>
+      <a href="#"> Service</a>
+    </li>
+    <li>
+      <a href="#"> About Me</a>
+    </li>
+    <li>
+      <a href="contact.html"> Contact</a>
+    </li>
+    <li>
+      <a href="#"> Privacy policy</a>
+    </li>
+  </ul>
+  <p class="copy">@ 2024 Naim | All Right Reserved</p>
+   
+
+
+ </footer>
+  </div>
+</section>
+ 
+ <!-- link connect -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+
+ </body> 
+ </html>

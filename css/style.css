@@ -1,0 +1,74 @@
+ @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+ .bannar{
+    background-image:url(images/auto1.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+ }
+  .menu a:hover{
+ border-bottom: 1px solid #626262;
+ margin-bottom: ;
+}
+
+/* footer start */
+ 
+.footer{
+
+   position: relative;
+   bottom: 0;
+   width: 100%;
+   padding: 40px 0;
+   background-color: black;
+
+
+} 
+
+.footer .social{
+   text-align: center;
+   margin-bottom: 15px;
+   color:transparent;
+}
+
+
+.footer .social a{
+   font-size: 25px;
+   color: white;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    margin:0 8px;
+
+   }
+   .footer .social a:hover{
+      transform: scale(1.0) translateY(-10px);
+      color: orangered;
+      border: 1px solid orangered;
+   }
+   .footer ul{
+          font-size: 18px;
+          line-height: 1.6;
+          text-align: center;
+   }
+   .footer ul li a{
+      color: white;
+      text-decoration: none; 
+
+   }
+   .footer ul li a:hover{
+     border-bottom: 1px solid orangered;
+      
+   }
+   .footer ul li{
+      list-style: none;
+      display: inline-block;
+      padding: 0 20px;
+   }
+   .footer .copy{
+      margin-bottom:50px;
+      color: white;
+      text-align: center;
+      font-size: 12px;
+   }
+   /* footer end */
